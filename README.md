@@ -18,16 +18,12 @@ An example for Java Spring Boot Project with DDD Designed
 
 ## 根目录结构
 
-**docs**：项目相关文档存放目录 => [docs](docs/README.md)
-
-**src/main/java**: java源代码目录
-
-**src/main/resources**: 资源文件目录，包括配置文件，i18n, 静态资源，mapper xml等等
-
-**src/main/test**: 单元测试目录
-
-**src/test/resources**: 测试资源文件目录
-
-**target**: 构建目录
-
-
+- `AGENTS.md`：AI 协作约束、项目结构和工程规范说明。
+- `pom.xml`：Maven 构建入口，管理依赖、插件和打包流程。
+- `README.md`：项目说明、运行方式和基础使用指引。
+- `docs/`：项目文档目录，包含开发、运维、需求、测试等资料，详见 [docs](docs/README.md)。
+- `src/main/java/`：业务源码目录（DDD 分层实现）。
+- `src/main/resources/`：运行时资源目录（配置文件、i18n、静态资源等）。
+- `src/test/java/`：测试代码目录（单元测试与集成测试）。
+- `src/test/resources/`：测试资源目录（测试数据、文档、图片等）。
+- `target/`：Maven 构建输出目录（编译、测试和打包产物）。
